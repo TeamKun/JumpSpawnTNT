@@ -1,0 +1,14 @@
+name: JumpSpawnTNT
+version: ${project.version}
+main: sakastudio.jumpspawntnt.JumpSpawnTNT
+api-version: 1.15
+commands:
+  enableJumpSpawnTNT:
+    description: This is a demo command.
+    usage: /enableJumpSpawnTNT <true/false>
+    permission: JumpSpawnTNT.operator
+    permission-message: You don't have <permission>
+permissions:
+  JumpSpawnTNT.operator:
+    description: JumpSpawnTNT operator
+    default: op
